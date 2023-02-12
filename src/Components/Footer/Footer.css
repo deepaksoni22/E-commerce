@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer-wrapper {
+  height: 400px;
+  width: 97.81vw;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+
+  flex-direction: row;
+  background-color: #232f3e;
+  color: white;
+}
+.footer-wrapper div {
+  flex-grow: 1;
+  width: 200px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.icon {
+  font-size: 30px;
+}
+@media (max-width: 800) {
+  .footer-wrapper div {
+    width: 150px;
+
+    gap: 15px;
+  }
+}
